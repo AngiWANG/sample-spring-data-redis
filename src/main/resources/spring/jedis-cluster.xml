@@ -21,15 +21,27 @@
 			<set>
 				<bean class="org.springframework.data.redis.connection.RedisNode">
 					<constructor-arg index="0" value="192.168.32.131" />
-					<constructor-arg index="1" value="26379" />
+					<constructor-arg index="1" value="6377" />
 				</bean>
 				<bean class="org.springframework.data.redis.connection.RedisNode">
-					<constructor-arg index="0" value="127.0.0.1" />
-					<constructor-arg index="1" value="26380" />
+					<constructor-arg index="0" value="192.168.32.131" />
+					<constructor-arg index="1" value="6378" />
 				</bean>
 				<bean class="org.springframework.data.redis.connection.RedisNode">
-					<constructor-arg index="0" value="127.0.0.1" />
-					<constructor-arg index="1" value="26379" />
+					<constructor-arg index="0" value="192.168.32.131" />
+					<constructor-arg index="1" value="6379" />
+				</bean>
+				<bean class="org.springframework.data.redis.connection.RedisNode">
+					<constructor-arg index="0" value="192.168.32.131" />
+					<constructor-arg index="1" value="6387" />
+				</bean>
+				<bean class="org.springframework.data.redis.connection.RedisNode">
+					<constructor-arg index="0" value="192.168.32.131" />
+					<constructor-arg index="1" value="6388" />
+				</bean>
+				<bean class="org.springframework.data.redis.connection.RedisNode">
+					<constructor-arg index="0" value="192.168.32.131" />
+					<constructor-arg index="1" value="6389" />
 				</bean>
 			</set>
 		</property>

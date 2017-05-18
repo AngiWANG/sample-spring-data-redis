@@ -15,7 +15,7 @@ public class TestSentinelMain {
     public static void main(String[] args){
             ConfigurableApplicationContext ctx = null;
             try {
-                ctx = new ClassPathXmlApplicationContext("classpath*:spring/jedis-context.xml");
+                ctx = new ClassPathXmlApplicationContext("classpath*:spring/jedis-sentinel.xml");
 
                 StringRedisTemplate stringRedisTemplate = ctx.getBean("stringRedisTemplate", StringRedisTemplate.class);
 
